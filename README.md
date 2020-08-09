@@ -1,5 +1,7 @@
 # DEalog Message Generator
 
+![Java CI with Maven](https://github.com/DEalog/dealog-common/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 The DEalog Message Generator is a service that generates dummy messages for development purpose.
 It produces a message every 5 seconds and produces an event.
 
