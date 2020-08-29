@@ -1,8 +1,9 @@
 ## 1.0.0 (under development)
 This is the initial version
 
+- `NEW` Add sample geometries of type Multipolygon
 - `NEW` Add publishedAt field
-- 'NEW' Add random message event gecode as WKT polygon string
+- 'NEW' Add random message event geocode as WKT polygon string
 - 'NEW' Add random message event type
 - 'NEW' Add lorem ipsum generator
 - `NEW` Add message event generator to produce message events with test data
