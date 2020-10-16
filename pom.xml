@@ -20,7 +20,7 @@
     <quarkus.platform.version>1.6.1.Final</quarkus.platform.version>
     <surefire-plugin.version>2.22.1</surefire-plugin.version>
     <lombok.version>1.18.2</lombok.version>
-    <dealog-common.version>[1.0.0-SNAPSHOT,1.0.1-SNAPSHOT)</dealog-common.version>
+    <dealog-common.version>1.0.0-SNAPSHOT</dealog-common.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -64,7 +64,6 @@
       <artifactId>dealog-common</artifactId>
       <version>${dealog-common.version}</version>
     </dependency>
-
     <dependency>
       <groupId>com.thedeanda</groupId>
       <artifactId>lorem</artifactId>

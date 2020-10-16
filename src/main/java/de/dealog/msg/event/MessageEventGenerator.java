@@ -50,7 +50,7 @@ public class MessageEventGenerator {
         messageEvent.setType(getRandomEventType());
         messageEvent.setPayload(messageEventPayload);
 
-        log.debug("Send message event w/ type '{}' and '{}'", messageEvent.getType(), messageEventPayload);
+        log.debug("Send message {} of event ype '{}'", messageEventPayload.getIdentifier(), messageEvent.getType());
         return messageEvent;
     }
 
