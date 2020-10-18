@@ -1,6 +1,7 @@
 ## 1.0.0 (under development)
 This is the initial version
 
+- 'CNG' Change to Java 11
 - `NEW` Add sample geometries of type Multipolygon
 - `NEW` Add publishedAt field
 - 'NEW' Add random message event geocode as WKT polygon string
