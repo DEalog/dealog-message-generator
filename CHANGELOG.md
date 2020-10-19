@@ -1,6 +1,10 @@
 ## 1.0.0 (under development)
 This is the initial version
 
+- `NEW` Add organization
+- `NEW` Add random category
+- `NEW` Add random ars to message event
+- 'CNG' Raise quarkus version to 1.9.2
 - 'CNG' Change to Java 11
 - `NEW` Add sample geometries of type Multipolygon
 - `NEW` Add publishedAt field
