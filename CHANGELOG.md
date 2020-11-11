@@ -1,6 +1,7 @@
 ## 1.0.0 (under development)
 This is the initial version
 
+- 'CNG' Raise quarkus version to 1.9.2
 - 'CNG' Change to Java 11
 - `NEW` Add sample geometries of type Multipolygon
 - `NEW` Add publishedAt field
