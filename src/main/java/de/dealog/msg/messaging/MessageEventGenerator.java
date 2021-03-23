@@ -2,9 +2,9 @@ package de.dealog.msg.messaging;
 
 import com.thedeanda.lorem.Lorem;
 import com.thedeanda.lorem.LoremIpsum;
-import de.dealog.common.model.MessageEvent;
-import de.dealog.common.model.MessageEventPayload;
-import de.dealog.common.model.MessageEventType;
+import de.dealog.common.messaging.message.MessageEvent;
+import de.dealog.common.messaging.message.MessageEventPayload;
+import de.dealog.common.messaging.message.MessageEventType;
 import io.reactivex.Flowable;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.microprofile.reactive.messaging.Outgoing;
@@ -44,19 +44,27 @@ public class MessageEventGenerator {
         messageEventPayload.setIdentifier(UUID.randomUUID().toString());
         messageEventPayload.setHeadline(lorem.getWords(1,5));
         messageEventPayload.setDescription(lorem.getParagraphs(1,2));
+        messageEventPayload.setOrganization("DEalog Team");
         messageEventPayload.setGeocode(getRandomGeocode());
+        messageEventPayload.setArs(getRandomArs());
         messageEventPayload.setPublishedAt(new Date());
-        MessageEvent messageEvent = new MessageEvent();
+
+        MessageEvent messageEvent = new MessageEvent();000000000000
         messageEvent.setType(getRandomEventType());
         messageEvent.setPayload(messageEventPayload);
 
-        log.debug("Send message {} of event ype '{}'", messageEventPayload.getIdentifier(), messageEvent.getType());
+        log.debug("Send message {} of event type '{}'", messageEventPayload.getIdentifier(), messageEvent.getType());
         return messageEvent;
     }
 
     private MessageEventType getRandomEventType() {
         MessageEventType[] types = MessageEventType.values();
         return types[rand.nextInt(types.length)];
+    }
+
+    private String getRandomArs() {
+        String[] ars = {"000000000000", "09", "091", "09179", "091790134134"};
+        return ars[rand.nextInt(ars.length)];
     }
 
     private String getRandomGeocode() {
