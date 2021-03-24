@@ -49,7 +49,7 @@ public class MessageEventGenerator {
         messageEventPayload.setArs(getRandomArs());
         messageEventPayload.setPublishedAt(new Date());
 
-        MessageEvent messageEvent = new MessageEvent();000000000000
+        MessageEvent messageEvent = new MessageEvent();
         messageEvent.setType(getRandomEventType());
         messageEvent.setPayload(messageEventPayload);
 

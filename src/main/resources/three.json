@@ -1,0 +1,49 @@
+[
+  {
+    "identifier": "BIWAPP-50114",
+    "sender": "CAP@biwapp.de",
+    "sent": "2020-11-16T14:15:03+01:00",
+    "status": "Actual",
+    "msgType": "Alert",
+    "scope": "Public",
+    "code": [
+      "1.0",
+      "BIWAPP"
+    ],
+    "info": [
+      {
+        "language": "DE",
+        "category": [
+          "Other"
+        ],
+        "event": "4",
+        "urgency": "Unknown",
+        "severity": "Minor",
+        "certainty": "Unknown",
+        "expires": "2021-03-30T14:11:00+02:00",
+        "headline": "Stallpflicht für Geflügel im gesamten Landkreis Harburg",
+        "description": "Nachweis der Geflügelpest bei einem Wildvogel im Landkreis – Allgemeinverfügung des Kreisveterinäramts: Stallhaltung für Geflügel ist ab Dienstag, 17.11. 2020, verpflichtend - Verschärfte Hygiene- und Biosicherheitsmaßnahmen erforderlich<br><br>In den vergangenen Wochen hat sich die Vogelgrippe (Aviäre Influenza) oder Geflügelpest in ganz Norddeutschland ausgebreitet. Nun wurde auch bei einer an der Elbe verendeten Graugans im Landkreis Harburg der hoch ansteckende Virus-Typ H5N8 festgestellt. Daher ordnet der Landkreis Harburg wie andere betroffene niedersächsische Landkreise die Stallpflicht für Geflügel im gesamten Kreisgebiet an.<br><br>Damit dürfen ab Dienstag, 17. November 2020, Geflügelhalter ihre Tiere nicht mehr unter freiem Himmel halten, sondern nur in geschlossenen Ställen oder unter einer Schutzvorrichtung, die aus einer überstehenden, nach oben gegen Einträge gesicherten dichten Abdeckung und einer gegen das Eindringen von Wildvögeln gesicherten Seitenabgrenzung bestehen muss.<br><br>Thorsten Völker, Leiter der Abteilung Ordnung und Verbraucherschutz der Kreisverwaltung, die auch das Veterinäramt umfasst: „Das Friedrich-Löffler-Institut hat bei einer in Stöckte (Stadt Winsen/Luhe) tot aufgefundenen Graugans eine Erkrankung mit der aviären Influenza vom Typ H5N8 bestätigt. Auf dem Hintergrund des Vogelzugs müssen wir von einer möglichen Verbreitung der Geflügelpest im gesamten Kreisgebiet ausgehen und ordnen deshalb zum Schutz der Geflügelbestände im Landkreis Harburg die sofortige Stallpflicht an.“<br><br>Lediglich in begründeten Einzelfällen sind Ausnahmen von der Aufstallungspflicht, zum Beispiel für Gänse- oder Entenhaltungen, bei denen keine Aufstallungsmöglichkeiten existieren, auf Antrag möglich. Das dafür notwendige Formular kann unter <a href=\"http://www.landkreis-harburg.de/\" target=\"_blank\" rel=\"noopener noreferrer\">www.landkreis-harburg.de</a> (Suchbegriff: „Geflügelpest“) heruntergeladen werden. Für Kleinst- und Hobbyhalter dürfte diese Möglichkeit in der Regel nicht greifen.<br><br>Über die Aufstallungsverpflichtung hinaus haben alle Geflügelhalter, auch Kleinst- und Hobbyhalter, im gesamten Kreisgebiet die gesetzliche Verpflichtung, Biosicherheitsmaßnahmen einzuhalten:<br><br>Soweit noch nicht geschehen, muss jede Geflügelhaltung beim Veterinäramt ihre Adresse und die Zahl des gehaltenen Geflügels melden.<br><br>Geflügel darf nur unter einem Dach oder im Stall gefüttert und getränkt werden. Grund: Darüber fliegende Zugvögel könnten durch ihren Kot das Futter sowie Wasserstellen verunreinigen und Erreger übertragen. Wildvögel dürfen keinen Zugang zu Futter und Wasserstellen haben. Oberflächenwasser darf nicht zum Tränken verwendet werden.<br><br>Jeder Geflügelhalter muss ein Bestandsregister führen, in das Zu- und Abgänge im Bestand (auch Todesfälle) mit den Adressen der Käufer und Verkäufer einzutragen sind. Außerdem müssen die Halter ein Besucherbuch führen, in das sich jede Person eintragen muss, die den Geflügelstall oder -auslauf betreten hat.<br><br>Für betriebsfremde Personen müssen unbedingt Desinfektionsmatten und Schutzkleidung ausgelegt werden.<br><br>Bei Krankheits- oder Todesfällen bei Tieren müssen die Halter unbedingt das Veterinäramt des Landkreises Harburg (Telefon: 04171/ 693 466, <a href=\"mailto:tiergesundheit@lkharburg.de\" target=\"_blank\" rel=\"noopener noreferrer\">tiergesundheit@lkharburg.de</a>) kontaktieren und die Ursache abklären lassen.<br><br>Auch tote Wasservögel wie Gänse oder Enten – aber nicht jeder Singvogel – sollten dem Veterinäramt des Landkreises Harburg gemeldet werden.<br><br>Der Veterinärdienst des Landkreises überprüft die Einhaltung dieser Sicherheitsmaßnahmen und weist alle Halter gezielt auf ihre Verpflichtungen hin. Zudem gibt das Veterinäramt folgende Hinweise:<br><br>Spaziergänger und Haustiere sollten Kontakt zu toten oder kranken Wildvögeln vermeiden<br>Tote oder kranke Wildvögel, insbesondere Wassergeflügel (etwa Enten, Gänse, Schwäne) sind dem Veterinäramt zu melden<br><br>Jäger sollten, wenn sie mit Federwild in Berührung gekommen sind, jeglichen Kontakt zu Geflügel vermeiden.<br><br>Die Vogelgrippe ist eine anzeigepflichtige Tierseuche. Sie kann bei infizierten Vögeln zu schweren Erkrankungen und massenhaftem Verenden führen. Ihr Ausbruch kann zudem immense wirtschaftliche Folgen für alle Geflügelhalter, Schlachtstätten und fleischverarbeitende Industrien haben Beim Menschen wurde das Virus bisher nicht nachgewiesen. Erhitzte Geflügelprodukte können unbedenklich verzehrt werden. Das zuständige Friedrich-Loeffler-Institut (FLI) schätzt in seiner aktuellen Bewertung das Risiko einer Einschleppung der Geflügelpest in Geflügelhaltungen als hoch ein.<br><br><br>&nbsp;",
+        "parameter": [
+          {
+            "valueName": "sender_langname",
+            "value": "Landkreis Harburg - Presse- und Öffentlichkeitsarbeit"
+          }
+        ],
+        "area": [
+          {
+            "areaDesc": "Harburg",
+            "polygon": [
+              "9.5615,53.3412 9.5768,53.3299 9.5815,53.3103 9.5958,53.3064 9.6037,53.2948 9.6045,53.2885 9.5896,53.2916 9.6074,53.2432 9.6016,53.2402 9.6152,53.2372 9.6242,53.2271 9.7276,53.216 9.7457,53.2016 9.7991,53.187 9.8514,53.2102 9.8574,53.2022 9.8877,53.1952 9.9132,53.1739 9.9563,53.1809 9.9913,53.1772 10.0012,53.1736 9.9969,53.1593 10.0293,53.1578 10.081,53.1297 10.0922,53.1402 10.1002,53.1373 10.0935,53.1413 10.1092,53.1572 10.1096,53.1697 10.1322,53.1727 10.168,53.1894 10.1826,53.1792 10.1996,53.1868 10.2111,53.1825 10.2101,53.1884 10.2358,53.1933 10.2338,53.2098 10.2176,53.2147 10.2094,53.227 10.196,53.224 10.2032,53.2307 10.1953,53.2387 10.2058,53.2351 10.2121,53.2518 10.228,53.2476 10.2575,53.2597 10.2399,53.2715 10.2579,53.2902 10.2425,53.2845 10.2117,53.2937 10.2274,53.3147 10.2564,53.3148 10.2641,53.3232 10.2582,53.3311 10.2657,53.3338 10.2942,53.3279 10.2958,53.3333 10.3256,53.3349 10.3234,53.3596 10.3723,53.3618 10.3729,53.3676 10.3643,53.3709 10.3864,53.3644 10.4066,53.3666 10.4037,53.3601 10.4403,53.3551 10.435,53.3637 10.4428,53.3609 10.4437,53.3674 10.457,53.3685 10.471,53.3802 10.4692,53.3858 10.4193,53.4021 10.3754,53.4248 10.3308,53.425 10.3089,53.4332 10.2596,53.4183 10.2363,53.3955 10.1735,53.3969 10.1361,53.4221 10.1087,53.4267 10.0846,53.4504 10.0518,53.4639 10.0422,53.4562 10.0494,53.4499 10.0457,53.4467 10.0209,53.4469 10.0146,53.4422 10.0293,53.4352 9.9964,53.4261 9.9844,53.4154 9.9749,53.4147 9.9755,53.4215 9.9492,53.4309 9.942,53.4211 9.9165,53.4141 9.9066,53.4158 9.9215,53.4366 9.9044,53.4568 9.8691,53.4446 9.8604,53.4381 9.8624,53.4299 9.8359,53.4515 9.8075,53.4628 9.7986,53.4752 9.8024,53.4933 9.7827,53.4915 9.7835,53.4973 9.7689,53.5053 9.7653,53.4948 9.7381,53.491 9.7719,53.4808 9.7672,53.4711 9.7704,53.4581 9.7802,53.4563 9.7834,53.4405 9.7407,53.4379 9.7267,53.4226 9.7051,53.4157 9.6518,53.4098 9.6465,53.3947 9.6216,53.3889 9.6184,53.367 9.6026,53.3689 9.5615,53.3412"
+            ],
+            "geocode": [
+              {
+                "valueName": "Harburg",
+                "value": "033530000000"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
