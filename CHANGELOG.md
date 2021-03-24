@@ -1,6 +1,7 @@
 ## 1.0.0 (under development)
 This is the initial version
 
+- 'NEW' Add mock that returns CAP messages
 - 'NEW' Add organisation and a random ars
 - 'CNG' Raise quarkus version to 1.9.2
 - 'CNG' Change to Java 11
