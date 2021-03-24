@@ -1,4 +1,4 @@
-package de.dealog.msg.event;
+package de.dealog.msg.messaging;
 
 import com.thedeanda.lorem.Lorem;
 import com.thedeanda.lorem.LoremIpsum;
