@@ -6,14 +6,13 @@ import de.dealog.common.messaging.message.MessageEvent;
 import de.dealog.common.messaging.message.MessageEventPayload;
 import de.dealog.common.messaging.message.MessageEventType;
 import io.reactivex.Flowable;
-import lombok.extern.slf4j.Slf4j;
-import org.eclipse.microprofile.reactive.messaging.Outgoing;
-
-import javax.enterprise.context.ApplicationScoped;
 import java.util.Date;
 import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
+import javax.enterprise.context.ApplicationScoped;
+import lombok.extern.slf4j.Slf4j;
+import org.eclipse.microprofile.reactive.messaging.Outgoing;
 
 /**
  * A bean producing message events every 5 seconds. The message events are written to a Kafka topic (messages).
@@ -26,12 +25,12 @@ public class MessageEventGenerator {
 
     private static Random rand = new Random();
 
-    @Outgoing("generated-messages")
+    @Outgoing("messages")
     public Flowable<MessageEvent> generate() {
         log.debug("Generate");
 
         return Flowable.interval(5, TimeUnit.SECONDS)
-                .map(messageEvent -> nextMessageEvent());
+                .map(aLong -> nextMessageEvent());
     }
 
     /**

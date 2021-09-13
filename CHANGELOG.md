@@ -1,6 +1,8 @@
-## 1.0.0 (under development)
-This is the initial version
+## 2.0.0
+- Change reactive messaging from kafka to amqp 
+- Bump Quarkus from 1.13.6.Final to 2.2.2.Final
 
+## 1.0.0
 - 'NEW' Add mock that returns CAP messages
 - 'NEW' Add organisation and a random ars
 - 'CNG' Raise quarkus version to 1.9.2
